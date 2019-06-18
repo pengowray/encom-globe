@@ -167,9 +167,10 @@
                     /* add the connected points that are in the movie, and melbourne */
                     setTimeout(function(){
                         <!-- globe.addMarker(49.25, -123.1, "Vancouver"); -->
-                        globe.addMarker(35.6895, 129.69171, "Tokyo", true);
+                        <!-- globe.addMarker(35.6895, 129.69171, "Tokyo", true); -->
+						globe.addMarker(52.1332, -129.69171, "Saskatoon", true);
 						globe.addMarker(-37.8136, 144.9631, "Melbourne", true); 
-						<!--     {lat:-37.8136,lng:144.9631, label: "Melbourne"}, -->
+						<!-- {lat:-37.8136,lng:144.9631, label: "Melbourne"}, -->
 
                     }, 2000);
                 }
@@ -414,6 +415,7 @@
             </div>
 			-->
             <div id="options">
+			<!--
                 <div id="options-content">
                     <h3>Add element by clicking map below</h3>
                     <img class="projection" src="resources/point_picker.png" width= "280px"/>
@@ -450,18 +452,6 @@
                         </label>
                         <input type="text" id="globe-spr" data-slider="true" data-slider-range="1, 120" data-slider-step="1" data-slider-highlight="true" value="28"/>
 
-                        <!--
-                        <label>
-                            Points per Degree
-                        </label>
-                        <input type="text" id="globe-ppd" data-slider="true" data-slider-range=".5,4" data-slider-step=".1" data-slider-highlight="true" value="1.1"/>
-
-                        <label>
-                            Point Size
-                        </label>
-                        <input type="text" id="globe-ps" data-slider="true" data-slider-range=".1,1.0" data-slider-step=".1" data-slider-highlight="true" value=".6"/>
-                        -->
-
                         <label>
                             Intro Duration (ms)
                         </label>
@@ -497,8 +487,8 @@
 
                     <div id="apply-button" class="button">Reload</div>
 
-                    
                 </div>
+                -->
             </div>
             <div class="header" id="header-top">
                 <div class="header-left-section">CENTRAL SYSTEM DATA ... <span class="alt-1">LAUNCH ENCOM GLOBALIZATION</span></div>
