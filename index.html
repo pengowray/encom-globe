@@ -164,10 +164,13 @@
                         globe.addConstellation(constellation, opts);
                     }, 4000);
 
-                    /* add the connected points that are in the movie */
+                    /* add the connected points that are in the movie, and melbourne */
                     setTimeout(function(){
-                        globe.addMarker(49.25, -123.1, "Vancouver");
+                        <!-- globe.addMarker(49.25, -123.1, "Vancouver"); -->
                         globe.addMarker(35.6895, 129.69171, "Tokyo", true);
+						globe.addMarker(-37.8136, 144.9631, "Melbourne", true); 
+						<!--     {lat:-37.8136,lng:144.9631, label: "Melbourne"}, -->
+
                     }, 2000);
                 }
 
@@ -398,16 +401,18 @@
     </head>
     <body>
         <div id="container">
-            <div id="banner">
+            <!-- <div id="banner">
                 Encom Globe
                 <small>by <a href="http://twitter.com/arscan">@arscan</a></small>
-
+			-->
             </div>
             <div id="globe">
             </div>
+			<!--
             <div id="info-box">
                 A tribute to the <a href="http://work.gmunk.com/TRON-Board-Room">boardroom scene</a> in Disney's <a href="http://www.imdb.com/title/tt1104001/">Tron: Legacy</a>.  Built for reuse. Source on <a href="http://github.com/arscan/encom-globe/" class="github-link">Github</a>.
             </div>
+			-->
             <div id="options">
                 <div id="options-content">
                     <h3>Add element by clicking map below</h3>
