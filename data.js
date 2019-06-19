@@ -78,6 +78,7 @@ var data = [
     {lat:-12.04318,lng:-77.02824, label: "Lima"},
     {lat:21.30694,lng:-157.85833, label: "Honolulu"},
     {lat:-31.95224,lng:115.8614, label: "Perth"},
+    {lat:-37.8136,lng:144.9631, label: "Melbourne"},
     {lat:-37.8723, lng:175.6834, label: "Hobbiton"},
     {lat:22.28552,lng:114.15769, label: "Hong Kong"},
     {lat:19.07283,lng:72.88261, label: "Mumbai"},
@@ -86,6 +87,5 @@ var data = [
     {lat:52.52437,lng:13.41053, label:"Berlin"},
     {lat:55.95206,lng:-3.19648, label:"Edinburgh"},
     {lat:55.75222,lng:37.61556, label:"Moscow"},
-
 
 ]
